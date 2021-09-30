@@ -1,0 +1,73 @@
+# Practical_04-
+namespace
+#include<iostream>
+using namespace std;
+
+void charFunction(char a)
+{
+ cout<<"the value of character is "<<a<<endl;
+ cout<<"the size of character is "<<sizeof(a)<<endl;
+}
+
+void intFun(int a)
+{
+ cout<<"the value of integer is "<<a<<endl;
+cout<<"the size of interger is "<<sizeof(a)<<endl;
+}
+
+void uintFun(unsigned int a)
+{
+ cout<<"the value of unsigned integer is "<<a<<endl;
+cout<<"the size of unsigned integer is "<<sizeof(a)<<endl;
+}
+
+void boolfunction(bool a)
+{
+ cout<<"the value of bool is "<<a<<endl;
+cout<<"the size of a boolean is "<< sizeof(a)<<endl;
+}
+
+void longFunction(long a)
+{
+cout<<"the value of long is "<<a<<endl;  
+cout<<"the size of long is "<<sizeof(a)<<endl;
+}
+
+void floatFunction(float a)
+{
+cout<<"the value of float is "<<a<<endl;  
+cout<<"the size of float is "<<sizeof(a)<<endl;
+}
+void doublefunction(double a)
+{
+cout<<"the value of double is "<<a<<endl;  
+cout<<"the size of double is "<<sizeof(a)<<endl;
+}
+void longdoubleFunction(long double a)
+{
+cout<<"the value of long double is is "<<a<<endl;  
+cout<<"the size of long double is "<<sizeof(a)<<endl;
+}
+
+int main()
+{
+
+char b='a';
+charFunction(b); //character
+
+int v=-10;  
+intFun(v);// integer
+unsigned int va=10;
+uintFun(va);    //unsigned
+bool a=true;  
+boolfunction(a) ;  // boolean
+long l=1010101010; // long
+longFunction(l);
+float f=10.12345f; //float
+floatFunction(f);
+double d=1.101010101010101;  // double
+doublefunction(d);
+long double ld=1.12102652L;   // long double
+longdoubleFunction(ld);
+return 0;
+}
